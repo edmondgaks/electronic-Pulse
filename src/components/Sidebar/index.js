@@ -20,7 +20,7 @@ function Sidebar({isOpen, toggle}) {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to='services' onClick={toggle}>
+                        <SidebarLink to='problems' onClick={toggle}>
                             Problems
                         </SidebarLink>
                         <SidebarLink to='discover' onClick={toggle}>

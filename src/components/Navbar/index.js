@@ -53,7 +53,7 @@ function Navbar({toggle}) {
                     <NavLogo to='/' onClick={toggleHome}>ev-Pulsar</NavLogo>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='services'
+                            <NavLinks to='problems'
                                       smooth='easeInOutQuad'
                                       duration={500}
                                       spy={true}
@@ -64,14 +64,14 @@ function Navbar({toggle}) {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about'
+                            <NavLinks to='solution'
                                       smooth={true}
                                       duration={500}
                                       spy={true}
                                       exact='true'
                                       offset={-80}
                             >
-                            About
+                            Solution
                             </NavLinks>
                         </NavItem>
                         <NavItem>

@@ -12,11 +12,11 @@ import {
     ServicesIcon,
     ServicesP,
 
-} from './ServicesElements'
+} from './SolutionElements'
 
-function Services() {
+function Solution() {
     return (
-        <ServicesContainer id='problems'>
+        <ServicesContainer id='solution'>
             <ServicesH1>Problems to be Solved</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
@@ -39,4 +39,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Solution
