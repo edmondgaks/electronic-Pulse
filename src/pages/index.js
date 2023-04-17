@@ -7,6 +7,7 @@ import Services from '../components/Services'
 import Footer from '../components/Footer'
 import {homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data'
 import Solution from '../components/Solution';
+import MarketSection from '../components/Market';
 
 function Home() {
 
@@ -24,6 +25,7 @@ function Home() {
             <HeroSection />
             <Services />
             <Solution />
+            <MarketSection />
             <InfoSection {...homeObjOne} />
             {/* <InfoSection {...homeObjTwo} /> */}
             {/* <InfoSection {...homeObjThree} /> */}

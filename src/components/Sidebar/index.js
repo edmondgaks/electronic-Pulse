@@ -23,11 +23,11 @@ function Sidebar({isOpen, toggle}) {
                         <SidebarLink to='problems' onClick={toggle}>
                             Problems
                         </SidebarLink>
-                        <SidebarLink to='discover' onClick={toggle}>
-                            Discover
+                        <SidebarLink to='solution' onClick={toggle}>
+                            Solutions
                         </SidebarLink>
-                        <SidebarLink to='about' onClick={toggle}>
-                            About
+                        <SidebarLink to='market' onClick={toggle}>
+                            Market Plan
                         </SidebarLink>
                         <SidebarLink to='signup' onClick={toggle}>
                             Sign Up

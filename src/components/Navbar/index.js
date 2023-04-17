@@ -71,11 +71,11 @@ function Navbar({toggle}) {
                                       exact='true'
                                       offset={-80}
                             >
-                            Solution
+                            Solutions
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'
+                            <NavLinks to='market'
                                       smooth={true}
                                       duration={500}
                                       spy={true}
@@ -83,7 +83,7 @@ function Navbar({toggle}) {
                                       offset={-80}
                                       activeClass='active'
                             >
-                            Discover
+                            Market Plan
                             </NavLinks>
                         </NavItem>
                         <NavItem>
