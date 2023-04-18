@@ -1,6 +1,5 @@
 import React from 'react'
-import {Button} from '../ButtonElements'
-import importedImage from '../../images/svg-1.svg'
+import {Button} from '../ButtonElements';
 
 // import ChartComponent from '../Chart/Chart'
 import { ChartComponent,SeriesCollectionDirective,SeriesDirective,LineSeries,Inject,DateTime,Legend,Tooltip } from '@syncfusion/ej2-react-charts';

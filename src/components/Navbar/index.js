@@ -87,27 +87,39 @@ function Navbar({toggle}) {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup'
+                            <NavLinks to='model'
                                       smooth={true}
                                       duration={1500}
                                       spy={true}
                                       exact='true'
                                       offset={-80}
                             >
-                            Sign Up
+                            Model
                             </NavLinks>
                         </NavItem>
-                    </NavMenu>
-                        <NavBtn>
-                            <NavBtnLink to='signin'
+                        <NavItem>
+                            <NavLinks to='competition'
                                       smooth={true}
-                                      duration={1000}
+                                      duration={1500}
                                       spy={true}
                                       exact='true'
                                       offset={-80}
                             >
-                            Sign In
-                            </NavBtnLink>
+                            Competition
+                            </NavLinks>
+                        </NavItem>
+                        
+                    </NavMenu>
+                        <NavBtn>
+                            <NavLinks to='whyus'
+                                        smooth={true}
+                                        duration={1500}
+                                        spy={true}
+                                        exact='true'
+                                        offset={-80}
+                                >
+                                Why Us
+                                </NavLinks>
                         </NavBtn>
                     <MobileIcon onClick={toggle}>
                         <FaBars />

@@ -18,7 +18,7 @@ export const ServicesContainer = styled.div`
 `
 
 export const ServicesWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -44,7 +44,7 @@ export const ServicesCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: 340px;
-    padding: 30px;
+    // padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -56,8 +56,9 @@ export const ServicesCard = styled.div`
 `
 
 export const ServicesIcon = styled.img`
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 300px;
+    border-radius-top: 10px;
     margin-bottom: 10px;
 `
 export const ServicesH1 = styled.h1`
@@ -78,4 +79,5 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
+    margin-bottom: 10px;
 `

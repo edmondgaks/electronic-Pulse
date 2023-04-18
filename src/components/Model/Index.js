@@ -15,7 +15,7 @@ import {
 
 function Model() {
     return (
-        <ServicesContainer id='problems'>
+        <ServicesContainer id='model'>
             <ServicesH1>Business Model</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>

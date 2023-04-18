@@ -1,6 +1,5 @@
 import React from 'react'
 import {Button} from '../ButtonElements'
-import importedImage from '../../images/svg-1.svg'
 import propriatery from "../../images/proprietary.png";
 import {InfoContainer,
         InfoWrapper,
@@ -17,31 +16,13 @@ import {InfoContainer,
     } from './InfoElements'
 
     
-    function InfoSection({
-        id, 
-        lightBg, 
-        imgStart, 
-        topLine, 
-        headline, 
-        lightText, 
-        description,
-        darkText,
-        buttonLabel,
-        img,
-        alt,
-        primary, 
-        dark,
-        dark2,
-        imgPath
-    }) {
-
-                       
+    function InfoSection() {
 
     return (
         <>
             <InfoContainer>
                 <InfoWrapper>
-                    <InfoRow img={imgStart}>
+                    <InfoRow>
                         <Column1>
                             <TextWrapper>
                                 <TopLine>Proprietary Technology/ Expertise</TopLine>
@@ -54,7 +35,7 @@ import {InfoContainer,
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={propriatery} alt={alt} />
+                                <Img src={propriatery} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

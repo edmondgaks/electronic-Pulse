@@ -5,10 +5,11 @@ import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import Services from '../components/Services'
 import Footer from '../components/Footer'
-import {homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data'
 import Solution from '../components/Solution';
 import MarketSection from '../components/Market';
 import Model from '../components/Model/Index';
+import WhyUs from '../components/WhyUs/index';
+import Competition from '../components/competition';
 function Home() {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -27,9 +28,9 @@ function Home() {
             <Solution />
             <MarketSection />
             <Model />
-            <InfoSection {...homeObjOne} />
-            {/* <InfoSection {...homeObjTwo} /> */}
-            {/* <InfoSection {...homeObjThree} /> */}
+            <InfoSection />
+            <Competition />
+            <WhyUs />
             <Footer />
         </>
     )
