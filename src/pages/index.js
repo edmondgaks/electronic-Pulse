@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import {homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data'
 import Solution from '../components/Solution';
 import MarketSection from '../components/Market';
-
+import Model from '../components/Model/Index';
 function Home() {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -26,6 +26,7 @@ function Home() {
             <Services />
             <Solution />
             <MarketSection />
+            <Model />
             <InfoSection {...homeObjOne} />
             {/* <InfoSection {...homeObjTwo} /> */}
             {/* <InfoSection {...homeObjThree} /> */}
