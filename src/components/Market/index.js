@@ -2,7 +2,9 @@ import React from 'react'
 import {Button} from '../ButtonElements'
 import importedImage from '../../images/svg-1.svg'
 
-import ChartComponent from '../Chart/Chart'
+// import ChartComponent from '../Chart/Chart'
+import { ChartComponent,SeriesCollectionDirective,SeriesDirective,LineSeries,Inject,DateTime,Legend,Tooltip } from '@syncfusion/ej2-react-charts';
+import { lineCustomSeries,LinePrimaryYAxis,LinePrimaryXAxis} from '../data/dummy';
 
 import {InfoContainer,
         InfoWrapper,
@@ -48,14 +50,18 @@ function MarketSection({
                         <Column1>
                             <TextWrapper>
                                 <TopLine>Market Size</TopLine>
-                                <Heading lightText={true}>Headline for About</Heading>
-                                <Subtitle darkText={darkText}>Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius dignissim elementum. Mollis tincidunt mattis</Subtitle>
+                                <Heading lightText={true}>Graph for Europe's chargers market</Heading>
+                                <Subtitle darkText={darkText}>Europe Electric Vehicle chargers Market was valued at $477.2 million in 2016, and is projected to reach at $2,745.4 million by 2023, growing at a CAGR of 29.4% from 2017 to 2023.</Subtitle>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                {/* <Img src={importedImage} alt={alt} /> */}
-                                {/* <ChartComponent /> */}
+                            <ChartComponent>
+                                <Inject services={[LineSeries,DateTime,Legend,Tooltip]} />
+                                <SeriesCollectionDirective>
+                                {lineCustomSeries.map((item,index) => <SeriesDirective key={index} {...item} />)}
+                                </SeriesCollectionDirective>
+                        </ChartComponent>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
