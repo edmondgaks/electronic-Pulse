@@ -2,6 +2,8 @@ import React from 'react'
 import {Button} from '../ButtonElements'
 import importedImage from '../../images/svg-1.svg'
 
+import ChartComponent from '../Chart/Chart'
+
 import {InfoContainer,
         InfoWrapper,
         InfoRow,
@@ -16,7 +18,7 @@ import {InfoContainer,
         Img,
     } from './MarketElements'
 
-    
+
     
 function MarketSection({
         id, 
@@ -52,7 +54,8 @@ function MarketSection({
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={importedImage} alt={alt} />
+                                {/* <Img src={importedImage} alt={alt} /> */}
+                                {/* <ChartComponent /> */}
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

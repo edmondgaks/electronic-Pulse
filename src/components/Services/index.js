@@ -2,7 +2,7 @@ import React from 'react'
 import Icon1 from '../../images/svg-4.svg'
 import Icon2 from '../../images/svg-5.svg'
 import Icon3 from '../../images/svg-6.svg'
-
+import timer from '../../images/timer.png';
 import {
     ServicesContainer,
     ServicesH1,
@@ -20,7 +20,7 @@ function Services() {
             <ServicesH1>Problems to be Solved</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
+                    <ServicesIcon src={timer} />
                     {/* <ServicesH2>Charging time</ServicesH2> */}
                     <ServicesP>Charging time</ServicesP>
                 </ServicesCard>
