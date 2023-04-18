@@ -20,17 +20,14 @@ function Services() {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={timer} />
-                    {/* <ServicesH2>Charging time</ServicesH2> */}
                     <ServicesP>Charging time</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={airpollution} />
-                    {/* <ServicesH2>Air Pollution</ServicesH2> */}
                     <ServicesP>Air Pollution</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={lack} />
-                    {/* <ServicesH2>Lack of chargers</ServicesH2> */}
                     <ServicesP>Lack of chargers</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>            
