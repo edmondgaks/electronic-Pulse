@@ -29,8 +29,8 @@ function Sidebar({isOpen, toggle}) {
                         <SidebarLink to='market' onClick={toggle}>
                             Market Plan
                         </SidebarLink>
-                        <SidebarLink to='signup' onClick={toggle}>
-                            Sign Up
+                        <SidebarLink to='Competition' onClick={toggle}>
+                            Competition
                         </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>

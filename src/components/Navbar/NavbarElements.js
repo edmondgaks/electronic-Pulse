@@ -86,7 +86,7 @@ export const NavLinks = styled(LinkScroll)`
         border-bottom: 3px solid #01bf71;
     }
 `
-export const NavBtn = styled.nav`
+export const NavBtn = styled.button`
     display: flex;
     align-items: center;
 

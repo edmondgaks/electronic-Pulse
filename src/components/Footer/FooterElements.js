@@ -79,7 +79,7 @@ export const SocialMediaWrap = styled.div`
 `
 
 export const SocialLogo = styled(LinkRoute)`
-    color: #fff;
+    color: #c9830a;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;

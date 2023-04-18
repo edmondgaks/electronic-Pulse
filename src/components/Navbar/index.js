@@ -13,13 +13,6 @@ import {Nav,
         NavBtnLink
     } from './NavbarElements'
 
-// Navbar with built in scorll functionality
-// =========================================
-// 1. set up a listener that changes nav bar once scrolled a certain distance
-// away from the top of the page
-// 2. The items in the navbar have scroll functinality that 
-// scrolls to sections identified by to=#id
-// 3. The logo is activated to scroll to the top of the page if logo is clicked
 
 function Navbar({toggle}) {
 
@@ -86,17 +79,7 @@ function Navbar({toggle}) {
                             Market Plan
                             </NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks to='model'
-                                      smooth={true}
-                                      duration={1500}
-                                      spy={true}
-                                      exact='true'
-                                      offset={-80}
-                            >
-                            Model
-                            </NavLinks>
-                        </NavItem>
+                        
                         <NavItem>
                             <NavLinks to='competition'
                                       smooth={true}
@@ -110,17 +93,7 @@ function Navbar({toggle}) {
                         </NavItem>
                         
                     </NavMenu>
-                        <NavBtn>
-                            <NavLinks to='whyus'
-                                        smooth={true}
-                                        duration={1500}
-                                        spy={true}
-                                        exact='true'
-                                        offset={-80}
-                                >
-                                Why Us
-                                </NavLinks>
-                        </NavBtn>
+                        
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

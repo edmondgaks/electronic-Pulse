@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import Video from '../../videos/video.mp4'
+// import Video from '../../'
 import {
     HeroContainer,
     HeroBg,
@@ -36,9 +36,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-                
-                    <VideoBg src={Video} autoPlay loop type="video/mp4" />
-                
+                <VideoBg src={"/videos/video.mp4"} autoPlay loop type="video/mp4" />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Smart Charging</HeroH1>
