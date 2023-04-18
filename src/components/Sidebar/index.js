@@ -4,9 +4,7 @@ import {SidebarContainer,
         CloseIcon,
         SidebarWrapper,
         SidebarMenu,
-        SidebarLink,
-        SideBtnWrap,
-        SidebarRoute,
+        SidebarLink
 } from './SidebarElements';
 
 function Sidebar({isOpen, toggle}) {
@@ -33,9 +31,6 @@ function Sidebar({isOpen, toggle}) {
                             Competition
                         </SidebarLink>
                     </SidebarMenu>
-                    <SideBtnWrap>
-                        <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-                    </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>
             

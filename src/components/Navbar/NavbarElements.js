@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkRouter)`
 export const MobileIcon = styled.div`
     diplay: none;
 
-    @media screen and (max-width: 768px){
+    @media screen and (min-width: 768px){
     display: block;
     position: absolute;
     top: 0;

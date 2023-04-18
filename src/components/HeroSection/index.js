@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react'
-// import Video from '../../'
+import React, { useState} from 'react'
 import {
     HeroContainer,
     HeroBg,
@@ -13,26 +12,15 @@ import {
 } from './HeroElements'
 
 import {Button} from '../ButtonElements'
-// import fs from 'fs';
+
 function HeroSection() {
 
     const [hover, setHover] = useState(false);
-    const [stream, setStream] = useState(null);
 
     const onHover = () => {
         setHover(!hover)
     }
-    // useEffect(() => {
-    //     const newStream = fs.createReadStream(Video);
-    //     setStream(newStream);
-
-    //     return () => {
-    //         if(newStream) {
-    //             newStream.destroy();
-    //         }
-    //     }
-    // }, []);
-
+    
     return (
         <HeroContainer>
             <HeroBg>
@@ -42,12 +30,12 @@ function HeroSection() {
                 <HeroH1>Smart Charging</HeroH1>
                 <HeroP>Charge your devices using wireless efficiently with ev-Pulsar</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup'
+                    <Button to='problems'
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary='true'
                             dark='true'>
-                            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                            Explore {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

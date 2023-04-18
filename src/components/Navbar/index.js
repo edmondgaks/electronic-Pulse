@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa';
-import {IconContext} from 'react-icons/lib' // Context for changing Icon styles
+import {IconContext} from 'react-icons/lib' 
 import {animateScroll as scroll} from 'react-scroll'
 import {Nav, 
         NavbarContainer, 
@@ -8,9 +8,7 @@ import {Nav,
         MobileIcon,
         NavMenu,
         NavItem,
-        NavLinks,
-        NavBtn,
-        NavBtnLink
+        NavLinks
     } from './NavbarElements'
 
 

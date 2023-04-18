@@ -77,5 +77,6 @@ export const ServicesH2 = styled.h2`
 
 export const ServicesP = styled.p`
     font-size: 1rem;
+    opacity: 0.8;
     text-align: center;
 `

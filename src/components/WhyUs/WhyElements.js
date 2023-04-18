@@ -71,6 +71,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.li`
     max-width: 440px;
     margin-bottom: 35px;
+    opacity: 0.8;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
