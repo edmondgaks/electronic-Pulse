@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button} from '../ButtonElements'
 import importedImage from '../../images/svg-1.svg'
-
+import propriatery from "../../images/proprietary.png";
 import {InfoContainer,
         InfoWrapper,
         InfoRow,
@@ -16,7 +16,6 @@ import {InfoContainer,
         Img,
     } from './InfoElements'
 
-    
     
     function InfoSection({
         id, 
@@ -40,33 +39,22 @@ import {InfoContainer,
 
     return (
         <>
-            <InfoContainer id={id} lightBg={lightBg}>
+            <InfoContainer>
                 <InfoWrapper>
                     <InfoRow img={imgStart}>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
-                                <BtnWrap>
-                                    <Button to='home'
-                                            smooth={true}
-                                            duration={500}
-                                            spy={true}
-                                            exact='true'
-                                            offset={-80}
-                                            primary={ primary ? 1 : 0}
-                                            dark={dark ? 1 : 0}
-                                            dark2={dark2 ? 1 : 0}
-                                    >
-                                        {buttonLabel}
-                                    </Button>
-                                </BtnWrap>
+                                <TopLine>Proprietary Technology/ Expertise</TopLine>
+                                {/* <Heading lightText={lightText}>{headline}</Heading> */}
+                                <Subtitle>Wireless charging system</Subtitle>
+                                <Subtitle>First Ai integrated charging system</Subtitle>
+                                <Subtitle>Blockchain payment system to ease access</Subtitle>
+                                
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={importedImage} alt={alt} />
+                                <Img src={propriatery} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
