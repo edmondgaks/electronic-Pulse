@@ -32,7 +32,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkRouter)`
-    color: orange;
+    color: #c9830a;
     justify-self: flex-start;
     pointer: cursor;
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(LinkRouter)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #c9830a;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;

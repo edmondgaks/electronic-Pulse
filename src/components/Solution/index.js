@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/svg-4.svg'
-import Icon2 from '../../images/svg-5.svg'
-import Icon3 from '../../images/svg-6.svg'
+import clock from '../../images/clock.png'
+import solar from '../../images/solar-energy.png';
+import charg from '../../images/phone-charger.png';
 
 import {
     ServicesContainer,
@@ -20,17 +20,17 @@ function Solution() {
             <ServicesH1>Solutions</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
+                    <ServicesIcon src={clock} />
                     {/* <ServicesH2>Charging time</ServicesH2> */}
                     <ServicesP>Developing ultrafast wireless chargers</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon2} />
+                    <ServicesIcon src={solar} />
                     {/* <ServicesH2>Air Pollution</ServicesH2> */}
                     <ServicesP>Fully powered solar roofs on the chargers</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon3} />
+                    <ServicesIcon src={charg} />
                     {/* <ServicesH2>Lack of chargers</ServicesH2> */}
                     <ServicesP>Installing chargers on both public and private places</ServicesP>
                 </ServicesCard>

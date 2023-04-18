@@ -1,7 +1,4 @@
 import React from 'react'
-import Icon1 from '../../images/svg-4.svg'
-import Icon2 from '../../images/svg-5.svg'
-import Icon3 from '../../images/svg-6.svg'
 import timer from '../../images/timer.png';
 import airpollution from '../../images/air-pollution.png'
 import lack from '../../images/lack.png';
