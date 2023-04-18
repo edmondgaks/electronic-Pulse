@@ -3,6 +3,8 @@ import Icon1 from '../../images/svg-4.svg'
 import Icon2 from '../../images/svg-5.svg'
 import Icon3 from '../../images/svg-6.svg'
 import timer from '../../images/timer.png';
+import airpollution from '../../images/air-pollution.png'
+import lack from '../../images/lack.png';
 import {
     ServicesContainer,
     ServicesH1,
@@ -25,12 +27,12 @@ function Services() {
                     <ServicesP>Charging time</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon2} />
+                    <ServicesIcon src={airpollution} />
                     {/* <ServicesH2>Air Pollution</ServicesH2> */}
                     <ServicesP>Air Pollution</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon3} />
+                    <ServicesIcon src={lack} />
                     {/* <ServicesH2>Lack of chargers</ServicesH2> */}
                     <ServicesP>Lack of chargers</ServicesP>
                 </ServicesCard>
