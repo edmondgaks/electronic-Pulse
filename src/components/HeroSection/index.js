@@ -24,7 +24,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={"/videos/video.mp4"} autoPlay loop type="video/mp4" />
+                <VideoBg src={"/videos/video.mp4"} autoPlay muted loop type="video/mp4" />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Smart Charging</HeroH1>
